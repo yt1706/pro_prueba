@@ -1,0 +1,122 @@
+Hola esta es una prueba de nuevo commit 
+
+Programación Web 12 Agosto 2023
+
+
+Evaluación Parcial 1 		30%(En pareja)
+- Usar Git y GitHub
+- Git != GitHub 
+- Git = Herramienta local
+- Github = Plataforma
+
+Git -- version(ver version si esta instalado)
+Instalar git
+
+aprende los comandos git :
+git --version
+git config --global user.name "Rodrigo Faundez "
+git config --global user.email rfaundez.rodrigo@gmail.com      
+git config --global core.editor "code --wait" 
+git config --global -e
+git config --global  core.autocrlf input 
+git config -h
+
+git init
+Ls -a
+Cd .git
+Ls -a
+
+Touch hola.txt => crea archivo
+
+Git status
+git add . (Para agregar todos los archivos de la carpeta a git)
+git commit -m “Commit inicial”
+Git status
+Git commit
+git log --oneline
+Git log —graph
+Git status
+Git branch (listar las ramas y marca la activa)
+Git restore —stage “nombre archivo” (ve si hay cambios)
+
+Git checkout -b ramab
+git log --oneline
+Git checkout main =>cambia de rama para traer de la ramab
+Git merge ramab =>se trae la rama b para trabajar con distintos desarrolladores
+
+
+git remote add origen https://github.com/rodrifaku/paginaWebVentasET.git
+Git remote -v
+
+
+git push -u origen main
+
+git pull
+
+——————————
+git init (Inicia git en la carpeta)
+Ls -a
+Git status
+git add . 
+git commit -m “Commit inicial”
+git log --oneline
+Git log --all —graph
+
+
+Rama principal puede ser (MASTER O MAIN)
+Antes de hacer una rama este total mente vacía state área
+Git status
+Git branch (listar las ramas y marca la activa)
+Git branch Nombre_rama (crear nueva rama)
+
+Git checkout nombre_rama(Sever a la nueva rama)
+Git branch
+
+Para absorber todos los cambios de las ramas debe estar parado en el principal desde main recibe 
+Git merge cambios_prueba
+git checkout -b otra rama
+
+git merge cambios_prueba
+
+
+Para llevar el proyecto para la casa
+
+.git
+
+
+—————————————
+Evaluación Parcial 2 				40%(En pareja)
+
+Evaluación Parcial 3 				30%(En pareja)
+Pruebas unitarias, automatizar prueba
+
+
+ET 40%
+Caso semestral en grupo(de 3 a 4 personas)
+
+Llegar con 3 ramas con diferentes comino
+AreaTrabajo- añado -confirmo 
+Area de trabajo temporal
+Punto de guardad commit
+Repositorio o proyecto
+
+
+
+Si funciona bien convino
+
+merge: cambiosTodos - not something we can merge
+
+
+Token por 24 horas 
+
+
+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
+Git push origen master
+
+Git remote -v
+ git clone https://github.com/yt1706/pro_prueba.git -b nombre_rama
+
+git pull origin master --rebase
+git push origin master
+Usuario
+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
